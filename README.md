@@ -38,7 +38,7 @@ the relationship between tectonic plates and the location, frequency of seismic 
 - [CSS File](/Earthquake_Challenge/static/css/style.css)
 
 --------------------------------------------------
-**Map URL**: <https://Kuntal.github.io/Mapping_Earthquakes/>
+**Map URL**: <https://kuntal-sys.github.io/Mapping_Earthquakes/>
 
 --------------------------------------------------
 ![challenge_Result.PNG](/challenge_Result.PNG)
