@@ -2,18 +2,17 @@
 
 Traverse and retrieve GeoJSON data to populate an interactive geographical map about earthquakes and tectonic plates using JavaScript,leaflet.js libraries as well as Mapbox API.
 
-### Project Purpose
+### Purpose
 
-The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days. And  to illustrate
-the relationship between tectonic plates and the location, frequency of seismic activity.
+The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days. And  to illustrate the relationship between tectonic plates and the location, frequency of seismic activity.
 
-### Project Approach
+### Approach
 
 - Use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.
 
 - Use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 
-### Project Process
+### Process
 
 - Retrieve data from a GeoJSON file *Tool: D3.json method for API*
 
@@ -29,7 +28,7 @@ the relationship between tectonic plates and the location, frequency of seismic 
 
 - Render maps on a server.
 
-## Chellenge Results
+## Results
 
 - [HTML File](/Earthquake_Challenge/index.html)
 
@@ -45,10 +44,11 @@ the relationship between tectonic plates and the location, frequency of seismic 
 
 --------------------------------------------------
 
-**Map Description:**
+**Description:**
 
-1. Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page.
+1. On the upper right side of map, a layer control would allow users change from different map styles(Street Mode, Satellite-Street Mode, Light Mode), and allow users to control which overlays (Earthquake cirle markers, Tectonic plates)they see on map. 
 
-2. Each earthquake and each lineString of tectonic plates boundary will have a popup marker that, when clicked, will show the information.
+2. Each earthquake will be visually represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. There are more color information in legend, which is in the right bottom of page.
 
-3. On the upper right side of map, a layer control would allow users change from different map styles(Street Mode, Satellite-Street Mode, Light Mode), and allow users to control which overlays (Earthquake cirle markers, Tectonic plates)they see on map. 
+3. Each earthquake and each lineString of tectonic plates boundary will have a popup marker that, when clicked, will show the information.
+
